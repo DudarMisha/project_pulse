@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 .container {
+    position: relative; /* якщо я буду використовувати Tiny slider якщо ні то пизиціювання в контейнера забрати */
     max-width: 950px;
     margin: 0 auto;
 }
@@ -21,4 +22,5 @@
 
 @import "media/promo_media";
 @import "media/advantages_media";
-@import "media/consultation_media"
+@import "media/consultation_media";
+@import "media/carousel_media"
