@@ -1,0 +1,40 @@
+.feedbacks {
+    min-height: 947px;
+    padding: 0 0 71px 0;
+    &__wrapper {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__item {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-bottom: 102px;
+    }
+    &__icon {
+        margin-right: 62px;
+    }
+    &__descr {
+        width: 656px;
+    }
+    &__title {
+        margin-bottom: 10px;
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__subtitle {
+        margin-bottom: 19px;
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__coment {
+        color: #0d0d0d;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
