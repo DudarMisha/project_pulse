@@ -1,0 +1,108 @@
+@media (max-width: 1200px) {
+    .catalog {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media (max-width: 991px) {
+    .catalog {
+        padding-bottom: 30px;
+        .title {
+            font-size: 25px;
+        }
+        &__tabs {
+            margin-top: 35px;
+        }
+        &__tab {
+            width: 195px;
+        }
+        &__content {
+            padding: 0 50px;
+            margin-top: 40px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .catalog {
+        padding-left: 0;
+        padding-right: 0;
+        .title {
+            font-size: 22px;
+        }
+        &__tabs {
+            margin-top: 20px;
+        }
+        &__tab {
+            width: 155px;
+            font-size: 14px;
+        }
+        &__content {
+            margin-top: 25px;
+        }
+        hr {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .button {
+            width: 110px;
+            margin-right: 3px;
+        }
+        &-item {
+            min-height: 410px;
+            margin-bottom: 10px;
+            padding: 3px;
+            width: 230px;
+            &__subtitle {
+                margin-top: 10px;
+            }
+            &__descr {
+                margin-top: 5px;
+                font-size: 13px;
+            }
+            &__link {
+                margin-top: 7px;
+            }
+            &__old-price {
+                margin-left: 3px;
+            }
+            &__price {
+                margin-left: 3px;
+                font-size: 17px;
+            }
+            &__list {
+                li {
+                    font-size: 13px;
+                    margin-bottom: 5px;
+                }
+            }
+            &__footer {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+@media (max-width: 575px) {
+    .catalog {
+        .title {
+            font-size: 20px;
+        }
+        &__tabs {
+            flex-direction: column;
+            margin-top: 5px;
+        }
+        &__tab {
+            width: 80%;
+            height: 35px;
+            line-height: 35px;
+            margin-bottom: 7px;
+        }
+        &__content {
+            margin-top: 10px;
+            justify-content: center;
+        }
+        &-item {
+            margin: 0 3px;
+            margin-bottom: 10px;
+        }
+    }   
+}
