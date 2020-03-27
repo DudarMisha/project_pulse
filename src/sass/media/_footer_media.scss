@@ -1,0 +1,21 @@
+@media (max-width: 767px) {
+    .footer {
+        height: 270px;
+        iframe {
+            display: none;
+        }
+        &__info {
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .footer {
+        &__adr {
+            font-size: 19px;
+        }
+        &__social {
+            width: 100%;
+        }
+    }
+}
