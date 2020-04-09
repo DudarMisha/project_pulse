@@ -123,10 +123,9 @@ $(window).scroll(function() {
     }
 });
 
-$("a[href^='#']").click(function(){
-    const _href = $(this).attr("href");
-    $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
-    return false;
+$("#up-button").click(function(){
+  $("html, body").animate({scrollTop: $("#up").offset().top+"px"});
+  return false;
 });
 
 // animations

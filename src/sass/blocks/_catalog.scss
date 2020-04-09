@@ -133,6 +133,12 @@
             &_active {
                 transform: translateX(-100%);
                 margin-left: 0;
+                margin-bottom: 0;
+            }
+            ul {
+                list-style-type: none;
+                margin-left: 0;
+                padding-left: 0;
             }
             li {
                 position: relative;
@@ -140,8 +146,8 @@
                 font-size: 14px;
                 font-weight: 300;
                 margin-bottom: 20px;
-                &::before {
-                    content: '';
+                &:before {
+                    content: "";
                     position: absolute;
                     width: 5px;
                     height: 5px;
