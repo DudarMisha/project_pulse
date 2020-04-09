@@ -129,4 +129,7 @@ $("a[href^='#']").click(function(){
     return false;
 });
 
+// animations
+
+new WOW().init();
 
