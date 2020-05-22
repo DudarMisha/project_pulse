@@ -19,6 +19,15 @@ const slider = tns({
     }
 });
 
+
+$(document).ready(function() {
+    var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+    if(iOS){
+        $(".call-ordering").css("font-size","10px");
+    }
+});
+
+
 document.querySelector('.prev').addEventListener('click', function () {
     slider.goTo('prev');
 });
