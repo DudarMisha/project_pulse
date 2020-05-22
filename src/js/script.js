@@ -64,6 +64,8 @@ $('.button_mini').each(function(i) {
 
 $('input[name=phone]').mask("+7 (999) 999-99-99");
 
+//validations
+
 $('.button_submit').on("click",function() {
 
     $name = $("#name").val();
