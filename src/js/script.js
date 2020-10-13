@@ -91,11 +91,11 @@ $('.button_submit').on("click",function() {
               $('#consultation, #order').fadeOut();
               $('form').trigger('reset');
           }).success(function(){
-            $.notify("Uadlo sie lamusie, kurwa jebana", "success");
+            $.notify("success");
             $('.overlay, #thanks').fadeIn('slow');
           });
     }else{
-      $.notify("Jestes debilem!", "error");
+      $.notify("error");
     }
 });
 
